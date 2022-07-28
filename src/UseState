@@ -1,0 +1,19 @@
+import React from 'react'
+import { useState } from 'react';
+
+const App = () =>{ 
+  const[names,setNames]=useState("") 
+ const resetInput = () =>{
+  setNames("")
+ }
+  return(
+    <div>
+      <h1>shashi kanth</h1> 
+      <form >
+      <input type = "text" name="names"  value={names} placeholder="enter names" onChange={(e)=>setNames(e.target.value)}/> 
+      <button onClick={resetInput}>Reset</button> 
+      </form> 
+      <div>my name is {names}</div>
+    </div>
+} 
+export default App;
