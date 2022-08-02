@@ -37,6 +37,8 @@ function App() {
     </Card>
             </div>
             <div className='col-md-4'>
+
+              
             <Card >
       <Card.Img variant="top" src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" />
       <Card.Body>
